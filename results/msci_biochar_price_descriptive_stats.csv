@@ -1,0 +1,16 @@
+statistic,value,unit,note
+weekly_observations,202,count,Jan 2022 - Nov 2025
+monthly_observations,47,count,monthly arithmetic means of weekly data
+closing_observation,150.75,USD/tCO2e,"last weekly observation, Nov 2025"
+weekly_minimum,100.0,USD/tCO2e,2023-09-15
+weekly_maximum,200.0,USD/tCO2e,2024-04-19
+monthly_mean_minimum,124.0,USD/tCO2e,Sep 2023
+monthly_mean_maximum,172.9,USD/tCO2e,Apr 2024
+gbm_drift_mu,6.18,percent/yr,"calibrated, monthly log-returns"
+gbm_volatility_sigma,38.58,percent/yr,calibrated
+gou_kappa,11.81,per yr,OLS on AR(1) representation
+gou_theta,149.56,USD/tCO2e,long-run level
+gou_sigma,48.85,percent/yr,instantaneous
+msdr_mu0_sigma0,"(+66.99, 6.79)",percent/yr,shock regime (Hamilton filter MLE)
+msdr_mu1_sigma1,"(-12.84, 41.55)",percent/yr,base regime
+msdr_P01_P11,"(1.000, 0.709)",probability,transition probabilities
